@@ -19,8 +19,11 @@ console.log(gender);
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
 */
-
-/* WRITE YOUR ANSWER HERE */
+let name = "Simone";
+let space = " ";
+let surName = "Backes";
+let concatenation = name + space + surName;
+console.log(concatenation);
 
 /*EX 4
  Create three variables and assign a numerical value to each one of them. 
@@ -52,11 +55,18 @@ console.log(gender);
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
-
-/* WRITE YOUR ANSWER HERE */
+let number = 400;
+let decrease = 20;
+let percentage = (number / 100) * decrease;
+console.log(percentage);
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let number2 = 15;
+if (number2 % 2 === 0) {
+  console.log(`The number ${number2} is even.`);
+} else {
+  console.log(`The number ${number2} is odd.`);
+}
